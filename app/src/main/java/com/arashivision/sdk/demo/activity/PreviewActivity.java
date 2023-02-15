@@ -1,11 +1,14 @@
 package com.arashivision.sdk.demo.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.FrameLayout;
+import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
@@ -214,6 +217,9 @@ public class PreviewActivity extends BaseObserveCameraActivity implements IPrevi
         mCapturePlayerView.prepare(createParams());
         mCapturePlayerView.play();
         mCapturePlayerView.setKeepScreenOn(true);
+        FrameLayout mFrame = findViewById(R.id.layout_content);
+
+
     }
 
     private CaptureParamsBuilder createParams() {
@@ -234,7 +240,7 @@ public class PreviewActivity extends BaseObserveCameraActivity implements IPrevi
             // 平铺模式
             // Plane Mode
             builder.setRenderModelType(CaptureParamsBuilder.RENDER_MODE_PLANE_STITCH)
-                    .setScreenRatio(2, 1);
+                    .setScreenRatio(1, 1);
         } else {
             // 普通模式
             // Normal Mode

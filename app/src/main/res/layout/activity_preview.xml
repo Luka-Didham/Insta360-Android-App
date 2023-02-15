@@ -2,13 +2,15 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/layout_content"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:screenOrientation="landscape">
 
     <com.arashivision.sdkmedia.player.capture.InstaCapturePlayerView
         android:id="@+id/player_capture"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@android:color/darker_gray" />
+        android:background="@android:color/white"
+ />
 
     <LinearLayout
         android:layout_width="match_parent"

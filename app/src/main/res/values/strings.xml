@@ -13,6 +13,8 @@
     <string name="main_item_desc_camera_fun">Camera Function -- Need to connect camera first</string>
     <string name="main_capture_button">Capture</string>
     <string name="main_capture_desc">Normal Capture &amp; Record, HDR Capture &amp; Record, Interval Shooting, TimeLapse…</string>
+    <string name="unity_stream_button" translatable="false">Unity Stream</string>
+    <string name="unity_stream_desc" translatable="false">Stream preview data for use in Unity</string>
     <string name="main_preview_button">Preview</string>
     <string name="main_preview_desc">Normal Mode. Can switch the aspect ratio, adjust the angle of view, switch panorama and plane mode</string>
     <string name="main_preview2_button">Preview2</string>

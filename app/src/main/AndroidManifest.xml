@@ -51,6 +51,9 @@
             android:name=".activity.Preview3Activity"
             android:screenOrientation="portrait" />
         <activity
+            android:name=".activity.PreviewTest"
+            android:screenOrientation="landscape" />
+        <activity
             android:name=".activity.LiveActivity"
             android:screenOrientation="portrait" />
         <activity

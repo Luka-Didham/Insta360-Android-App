@@ -55,6 +55,10 @@ public class MainActivity extends BaseObserveCameraActivity {
             startActivity(new Intent(MainActivity.this, PreviewActivity.class));
         });
 
+        findViewById(R.id.unity_stream).setOnClickListener(v -> {
+            startActivity(new Intent(MainActivity.this, PreviewTest.class));
+        });
+
         findViewById(R.id.btn_preview2).setOnClickListener(v -> {
             startActivity(new Intent(MainActivity.this, Preview2Activity.class));
         });
